@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./vendor/normalize.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/background/background.css);
+@import url(./blocks/background/__overlay/background__overlay.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/authForm/authForm.css);
+@import url(./blocks/authForm/__title/authForm__title.css);
+@import url(./blocks/authForm/__input/authForm__input.css);
+@import url(./blocks/authForm/__button/authForm__button.css);
+@import url(./blocks/authForm/__button/_restore/authForm__button_restore.css);
+@import url(./blocks/authForm/__button/_submit/authForm__button_submit.css);
+@import url(./blocks/authForm/__button/_create/authForm__button_create.css);
+@import url(./blocks/authForm/__button-text/authForm__button-text.css);
+@import url(./blocks/authForm/__button-text/_restore/authForm__button-text_restore.css);
+@import url(./blocks/authForm/__button-text/_submit/authForm__button-text_submit.css);
+@import url(./blocks/authForm/__navBar/authForm__navBar.css);
+@import url(./blocks/authForm/__navBar-item/authForm__navBar-item.css);
+@import url(./blocks/authForm/__navBar-item/_fb/authForm__navBar-item_fb.css);
+@import url(./blocks/authForm/__navBar-item/_google/authForm__navBar-item_google.css);
+@import url(./blocks/authForm/__navBar-item/_vk/authForm__navBar-item_vk.css);
+@import url(./blocks/popup/__button/popup__button.css);

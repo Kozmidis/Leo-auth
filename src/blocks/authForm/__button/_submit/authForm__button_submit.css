@@ -1,0 +1,11 @@
+.authForm__button_submit {
+  width: 100%;
+  background-color: #28c38a;
+  box-shadow: 0 2px 4px 0 rgb(34 41 67 / 14%);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  margin: 16px 0;
+  padding: 8px 16px;
+  opacity: 0.48;
+  cursor: not-allowed !important;
+}

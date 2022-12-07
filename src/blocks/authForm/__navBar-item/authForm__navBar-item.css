@@ -1,0 +1,18 @@
+.authForm__navBar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgb(34 41 67 / 14%);
+  height: 40px;
+  width: 60px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.authForm__navBar-item svg {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,8 @@
+.authForm__button_restore {
+  margin-top: 8px;
+  transition: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
